@@ -1,0 +1,18 @@
+<%- include('partials/layout.ejs') %>
+<div class="row">
+  <div class="col-md-8">
+    <% for(let id in posts) { %>
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title"><%= posts[id].title %></h5>
+          <p class="card-text"><%= posts[id].body %></p>
+          <a href="/posts/<%= id %>" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+    <% } %>
+  </div>
+  <div class="col-md-4">
+    <a href="/posts/new" class="btn btn-success btn-block">New Post</a>
+  </div>
+</div>
+</body>
