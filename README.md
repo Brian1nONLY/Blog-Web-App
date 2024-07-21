@@ -1,5 +1,3 @@
-# Blog-Web-App
-
 # Blog Web Application
 
 This is a full-featured blog web application developed using JavaScript, Node.js, Express.js, EJS, and Bootstrap. The application allows users to create, view, update, and delete blog posts, with a focus on providing a well-styled and responsive user experience.
