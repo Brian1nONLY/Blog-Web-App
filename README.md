@@ -1,7 +1,4 @@
 # Blog-Web-App
-Here’s a comprehensive description of your blog web app for your `README.md` file on GitHub:
-
----
 
 # Blog Web Application
 
